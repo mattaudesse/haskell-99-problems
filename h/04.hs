@@ -14,19 +14,14 @@
 
 myLength :: [a] -> Int
 myLength []     = 0
-myLength (_:[]) = 1
 myLength (_:xs) = 1 + sum [1 | _ <- xs]
-
-
--- Avoid HLint type annotation warning.
-testSetOne :: [Int]
-testSetOne = [123, 456, 789]
 
 
 main :: IO ()
 main = do
-   putStrLn $ "myLength testSetOne (" ++ show testSetOne ++ "): "
-   print (myLength testSetOne)
+    -- Avoid HLint type annotation warning.
+    putStrLn "myLength ([123, 456, 789] :: [Int]): "
+    print $ myLength ([123, 456, 789] :: [Int])
 
-   putStrLn "myLength \"Hello, world!\""
-   print (myLength "Hello, world!")
+    putStrLn "myLength \"Hello, world!\""
+    print $ myLength "Hello, world!"
