@@ -24,7 +24,7 @@ main = do
     -- the ":: Integer" type annotation here:
     print (myButLast [1,2,3,4] :: Integer)
 
-    putStrLn "myButLast ['x','y','z']: "
+    putStrLn "myButLast ['a'..'z']: "
     -- Likewise, HLint wants an array of Char to be expressed as
     -- a string instead, hence the ignore pragma at top:
-    print (myButLast ['x','y','z'])
+    print (myButLast ['a'..'z'])
