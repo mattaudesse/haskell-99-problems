@@ -13,3 +13,5 @@ build: $(BINARIES)
 
 clean:
 	-@rm -Rf ./bin
+	-@rm ./h/*.hi
+	-@rm ./h/*.o
