@@ -1,4 +1,5 @@
 {-# ANN module "HLint: ignore Use string literal" #-}
+{-# ANN module "HLint: ignore Use last" #-}
 
 {-
     Problem 1
@@ -14,7 +15,7 @@
 -}
 
 myLast :: [a] -> a
-myLast = last 
+myLast = head . reverse
 
 
 main :: IO ()
