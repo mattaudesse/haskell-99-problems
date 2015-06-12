@@ -14,3 +14,5 @@ cabal install --enable-test --only-dependencies
 ```bash
 cabal test
 ```
+
+Many thanks to [@kazu-yamamoto](https://github.com/kazu-yamamoto) and [@tfausak](https://github.com/tfausak) for their guides on how to set up proper test suites in Haskell.
