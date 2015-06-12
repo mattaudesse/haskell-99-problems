@@ -16,3 +16,6 @@ cabal test
 ```
 
 Many thanks to [@kazu-yamamoto](https://github.com/kazu-yamamoto) and [@tfausak](https://github.com/tfausak) for their guides on how to set up proper test suites in Haskell.
+
+
+[![Build Status](https://travis-ci.org/mattaudesse/haskell-99-problems.svg?branch=master)](https://travis-ci.org/mattaudesse/haskell-99-problems)
