@@ -10,6 +10,8 @@ module Problems.H05 where
 -- [4,3,2,1]
 --
 -- prop> myReverse [xs] == reverse [xs]
+--
+-- prop> (myReverse . myReverse) [xs] == [xs]
 
 
 myReverse :: [a] -> [a]
