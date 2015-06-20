@@ -8,6 +8,8 @@ module Problems.H04 where
 --
 -- >>> myLength "Hello, world!"
 -- 13
+--
+-- prop> myLength [a] == length [a]
 
 
 myLength :: [a] -> Int
