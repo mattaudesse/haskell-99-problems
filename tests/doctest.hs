@@ -13,4 +13,5 @@ main = doctest [
                , "Problems/H07.hs"
                , "Problems/H08.hs"
                , "Problems/H09.hs"
+               , "Problems/H10.hs"
                ]
