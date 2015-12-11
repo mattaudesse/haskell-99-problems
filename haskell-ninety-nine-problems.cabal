@@ -21,6 +21,7 @@ library
         Problems.H11
         Problems.H12
         Problems.H13
+        Problems.H14
     build-depends:          base
     default-language:       Haskell2010
 
