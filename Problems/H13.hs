@@ -15,9 +15,8 @@ import Problems.H11 (RunLength(..))
 
 encodeDirect :: Eq a => [a] -> [RunLength a]
 encodeDirect = foldr collapse [] where 
-    collapse i acc
-        | null acc              = [Single i]
-        | otherwise             = collapse' i (head acc) ++ tail acc
+    collapse i []               = [Single i]
+    collapse i acc              = collapse' i (head acc) ++ tail acc
 
     collapse' n (Single p)      = if n == p 
                                 then [Multiple 2 n]   
