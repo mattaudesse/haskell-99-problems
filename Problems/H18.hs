@@ -13,6 +13,9 @@ module Problems.H18 where
 -- >>> slice "abcdefghijk" 1 1
 -- "a"
 --
+-- >>> slice "abcdefghijk" 0 1
+-- "a"
+--
 -- >>> slice "abcdefghijk" 0 0
 -- ""
 --
@@ -27,9 +30,12 @@ module Problems.H18 where
 --
 -- >>> slice "abcdefghijk" 5 20
 -- "efghijk"
+--
+-- >>> slice "" 5 20
+-- ""
 
 slice :: [a] -> Int -> Int -> [a]
 slice as i k
-    | i < 0     = slice as 0 k
+    | i < 1     = slice as 1 k
     | k < 1     = []
     | otherwise = take (k - i + 1) $ drop (i - 1) as
