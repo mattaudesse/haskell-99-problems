@@ -34,7 +34,7 @@ library
         Problems.H16
         Problems.H17
         Problems.H18
-    build-depends:          base >= 4.8 && < 4.9
+    build-depends:          base >= 4.8.1.0 && < 4.9.0.0
     default-language:       Haskell2010
 
 test-suite doctest
@@ -43,4 +43,4 @@ test-suite doctest
     hs-source-dirs:         tests
     ghc-options:            -threaded -Wall
     main-is:                doctest.hs
-    build-depends:          base >= 4.8 && < 4.9, QuickCheck, doctest >= 0.9.3
+    build-depends:          base >= 4.8.1.0 && < 4.9.0.0, QuickCheck, doctest >= 0.9.3
