@@ -36,6 +36,7 @@ library
         Problems.H18
         Problems.H19
         Problems.H20
+        Problems.H21
     build-depends:          base >= 4.7.0.2 && < 4.9
     default-language:       Haskell2010
 
