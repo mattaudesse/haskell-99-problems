@@ -48,4 +48,7 @@ test-suite doctest
     hs-source-dirs:         tests
     ghc-options:            -threaded -Wall
     main-is:                doctest.hs
-    build-depends:          base >= 4.7.0.2 && < 4.9, QuickCheck, doctest >= 0.9.3
+    build-depends:          base >= 4.7.0.2 && < 4.9,
+                            QuickCheck,
+                            doctest >= 0.9.3,
+                            random == 1.1
