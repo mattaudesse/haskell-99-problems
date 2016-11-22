@@ -1,6 +1,5 @@
 module Problems.H23 where
 
-import Control.Monad (foldM)
 import System.Random (randomR, newStdGen)
 
 -- |
