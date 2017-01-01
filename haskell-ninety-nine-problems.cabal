@@ -39,6 +39,7 @@ library
         Problems.H21
         Problems.H22
         Problems.H23
+        Problems.H24
     build-depends:          base >= 4.7.0.2 && < 4.9, random == 1.1
     default-language:       Haskell2010
 
