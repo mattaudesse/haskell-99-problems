@@ -40,7 +40,7 @@ library
         Problems.H22
         Problems.H23
         Problems.H24
-    build-depends:          base >= 4.7.0.2 && < 4.9, random == 1.1
+    build-depends:          base >= 4.7.0.2 && < 4.9, random == 1.1, QuickCheck
     default-language:       Haskell2010
 
 test-suite doctest
