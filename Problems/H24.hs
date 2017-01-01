@@ -1,5 +1,6 @@
 module Problems.H24 where
 
+import Control.Applicative     ((<$>))
 import System.Random           (randomRs, newStdGen)
 import Test.QuickCheck         (Property)
 import Test.QuickCheck.Monadic (assert, run, monadicIO)
